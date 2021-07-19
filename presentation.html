@@ -18,8 +18,6 @@
     <link rel='stylesheet' href="index.css">
     <link rel="stylesheet" href="css/style6.css">
     <link rel="stylesheet" href="css/aos.css">
-    <script type="text/javascript" src="js/jquery.min.1.7.js"></script>
-    <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
     <title>Presentation &#8211; Bianca B. Thomas Portfolio</title>
@@ -94,13 +92,11 @@
             </nav>
         </div>
 
-      <div data-aos="zoom-in">
         <div class="open-overlay">
             <span class="bar-top"></span>
             <span class="bar-middle"></span>
             <span class="bar-bottom"></span>
         </div>
-      </div>
 
       <div data-aos="zoom-in">
         <h1 class="h1">Presentation</h1>
@@ -122,7 +118,7 @@
     <div class="r15">
         <div class="c18">
             <div class="i1">
-                <img class="mock" src="images/desktop/1280px/desktop_highfi_mockup6.webp" title="Home Carousel" alt="Home Carousel" />
+                <img class="mock lazy" src="images/mobile/414px/desktop_highfi_mockup6.webp" sizes="(max-width:600px) 100vw, 60vw" srcset="images/mobile/414px/desktop_highfi_mockup6.webp 400w, images/tablet/600px/desktop_highfi_mockup6.webp 600w, images/tablet/800px/desktop_highfi_mockup6.webp 800w, images/desktop/1280px/desktop_highfi_mockup6.webp 1000w">
             </div>
             <div class="btns">
                 <a href="https://invis.io/Y5119KIHKXB2" target="_blank"><button class="button button1"><b>View Prototype</b></button></a>
@@ -131,7 +127,7 @@
 
         <div class="c19">
             <div class="i2">
-                <img class="mock2" src="images/desktop/1280px/kids-in-the-house_woman-mockup.webp" title="Home Hover" alt="Home Hover" />
+                <img class="mock2 lazy" src="images/mobile/414px/kids-in-the-house_woman-mockup.webp" sizes="(max-width:600px) 100vw, 60vw" srcset="images/mobile/414px/kids-in-the-house_woman-mockup.webp 400w, images/tablet/600px/kids-in-the-house_woman-mockup.webp 600w, images/tablet/800px/kids-in-the-house_woman-mockup.webp 800w, images/desktop/1280px/kids-in-the-house_woman-mockup.webp 1000w">
             </div>
             <div class="btns">
                 <a href="https://bianca128680.invisionapp.com/console/share/DA1L5VK7VX" target="_blank"><button class="button button2"><b>View Prototype</b></button></a>
@@ -144,7 +140,7 @@
     <div class="r17">
         <div class="c20">
             <div class="i3">
-                <img class="mock3" src="images/desktop/1280px/desktop_lowfi_mockup3.webp" title="Desktop Low" alt="Desktop Low" />
+                <img class="mock3 lazy" src="images/mobile/414px/desktop_lowfi_mockup3.webp"sizes="(max-width:600px) 100vw, 60vw" srcset="images/mobile/414px/desktop_lowfi_mockup3.webp 400w, images/tablet/600px/desktop_lowfi_mockup3.webp 600w, images/tablet/800px/desktop_lowfi_mockup3.webp 800w, images/desktop/1280px/desktop_lowfi_mockup3.webp 1000w">
             </div>
             <div class="btns">
                 <a href="https://bianca128680.invisionapp.com/console/share/6M1TAEHS7U/496123355" target="_blank"><button class="button button8"><b>View Prototype</b></button></a>
@@ -153,7 +149,7 @@
 
         <div class="c21">
             <div class="i4">
-                <img class="mock4" src="images/desktop/1280px/mobile_lowfi_mockup3.webp" title="Mobile Low" alt="Mobile Low" />
+                <img class="mock4 lazy" src="images/mobile/414px/mobile_lowfi_mockup3.webp" sizes="(max-width:600px) 100vw, 60vw" srcset="images/mobile/414px/mobile_lowfi_mockup3.webp 400w, images/tablet/600px/mobile_lowfi_mockup3.webp 600w, images/tablet/800px/mobile_lowfi_mockup3.webp 800w, images/desktop/1280px/mobile_lowfi_mockup3.webp 1000w">
             </div>
             <div class="btns">
                 <a href="https://bianca128680.invisionapp.com/console/share/351TAI2YRU/496084520" target="_blank"><button class="button button9"><b>View Prototype</b></button></a>
@@ -163,7 +159,7 @@
   </div>
 
   <div data-aos="zoom-in">
-    <img class="wallpaper" src="bbt_presentation.jpg" />
+    <img class="wallpaper lazy" src="bbt_presentation.jpg" />
   </div>
   <div data-aos="zoom-in">
     <div class="btns">
@@ -172,7 +168,6 @@
   </div>
 
   <div data-aos="zoom-in">
-
     <iframe class="yump" width="620px" height="420px" src="https://www.yumpu.com/en/embed/view/qY0hSeZrglKCGNOP" frameborder="0" allowfullscreen="true"></iframe>
   </div>
 
@@ -201,46 +196,47 @@
       });
     </script>
     <script src="js/script13.js"></script>
-    <script type="text/javascript">
+    <script>
+      function logElementEvent(eventName, element) {
+        console.log(Date.now(), eventName, element.getAttribute("data-src"));
+      }
 
-    function loadApp() {
+      var callback_enter = function (element) {
+        logElementEvent("🔑 ENTERED", element);
+      };
+      var callback_exit = function (element) {
+        logElementEvent("🚪 EXITED", element);
+      };
+      var callback_loading = function (element) {
+        logElementEvent("⌚ LOADING", element);
+      };
+      var callback_loaded = function (element) {
+        logElementEvent("👍 LOADED", element);
+      };
+      var callback_error = function (element) {
+        logElementEvent("💀 ERROR", element);
+        element.src =
+          "https://via.placeholder.com/440x560/?text=Error+Placeholder";
+      };
+      var callback_finish = function () {
+        logElementEvent("✔️ FINISHED", document.documentElement);
+      };
+      var callback_cancel = function (element) {
+        logElementEvent("🔥 CANCEL", element);
+      };
 
-    	// Create the flipbook
-
-    	$('.flipbook').turn({
-    			// Width
-
-    			width:922,
-
-    			// Height
-
-    			height:600,
-
-    			// Elevation
-
-    			elevation: 50,
-
-    			// Enable gradients
-
-    			gradients: true,
-
-    			// Auto center this flipbook
-
-    			autoCenter: true
-
-    	});
-    }
-
-    // Load the HTML4 version if there's not CSS transform
-
-    yepnope({
-    	test : Modernizr.csstransforms,
-    	yep: ['js/turn.js'],
-    	nope: ['js/turn.html4.min.js'],
-    	both: ['css/basic.css'],
-    	complete: loadApp
-    });
-
+      require(["js/lazyload.amd.min.js"], function (LazyLoad) {
+        window.ll = new LazyLoad({
+          // Assign the callbacks defined above
+          callback_enter: callback_enter,
+          callback_exit: callback_exit,
+          callback_cancel: callback_cancel,
+          callback_loading: callback_loading,
+          callback_loaded: callback_loaded,
+          callback_error: callback_error,
+          callback_finish: callback_finish
+        });
+      });
     </script>
 
 </body>

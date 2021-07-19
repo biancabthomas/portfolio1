@@ -125,7 +125,7 @@
   </div>
 
   <div>
-    <a class="link" href="images/desktop/1920px/work_mockup6.webp" data-fancybox="gallery11" data-fancybox data-caption='Designed by <a href="https://mockupfree.co/" target="_blank">mockupfree.co</a>'><img class="wallpaper" src="images/desktop/1280px/work_mockup6.webp" /></a>
+    <a class="link" href="images/desktop/1920px/work_mockup6.webp" data-fancybox="gallery11" data-fancybox data-caption='Designed by <a href="https://mockupfree.co/" target="_blank">mockupfree.co</a>'><img class="wallpaper lazy" src="images/mobile/414px/work_mockup6.webp" sizes="(max-width:600px) 100vw, 60vw" srcset="images/mobile/414px/work_mockup6.webp 400w, images/tablet/600px/work_mockup6.webp 600w, images/tablet/800px/work_mockup6.webp 800w, images/desktop/1280px/work_mockup6.webp 1000w"></a>
  </div>
 
   <div data-aos="zoom-in">
@@ -142,19 +142,19 @@
 
         <div class="grid-wrapper8">
          <div class="big">
-           <a class="link" href="images/desktop/1920px/work_mockup1.webp" data-fancybox="gallery8" data-fancybox data-caption='WETA FM Classical Music 2 & Wedding Presentation'><img class="imgs" src="images/desktop/1280px/work_mockup1.webp" /></a>
+           <a class="link" href="images/desktop/1920px/work_mockup1.webp" data-fancybox="gallery8" data-fancybox data-caption='WETA FM Classical Music 2 & Wedding Presentation'><img class="imgs lazy" src="images/mobile/414px/work_mockup1.webp" sizes="(max-width:600px) 100vw, 60vw" srcset="images/mobile/414px/work_mockup1.webp 400w, images/tablet/600px/work_mockup1.webp 600w, images/tablet/800px/work_mockup1.webp 800w, images/desktop/1280px/work_mockup1.webp 1000w"></a>
          </div>
          <div>
-           <a class="link" href="images/desktop/1920px/work_mockup2.webp" data-fancybox="gallery8" data-fancybox data-caption='WETA Full Capabilities Whole Foods'><img class="imgs" src="images/desktop/1280px/work_mockup2.webp" /></a>
+           <a class="link" href="images/desktop/1920px/work_mockup2.webp" data-fancybox="gallery8" data-fancybox data-caption='WETA Full Capabilities Whole Foods'><img class="imgs lazy" src="images/desktop/1280px/work_mockup2.webp" /></a>
          </div>
          <div>
-           <a class="link" href="images/desktop/1920px/work_mockup3.webp" data-fancybox="gallery8" data-fancybox data-caption='WETA Full Capabilities Whole Foods'><img class="imgs" src="images/desktop/1280px/work_mockup3.webp" /></a>
+           <a class="link" href="images/desktop/1920px/work_mockup3.webp" data-fancybox="gallery8" data-fancybox data-caption='WETA Full Capabilities Whole Foods'><img class="imgs" src="images/mobile/414px/work_mockup3.webp" sizes="(max-width:600px) 100vw, 60vw" srcset="images/mobile/414px/work_mockup2.webp 400w, images/tablet/600px/work_mockup2.webp 600w, images/tablet/800px/work_mockup2.webp 800w, images/desktop/1280px/work_mockup2.webp 1000w"></a>
       </div>
       <div>
-        <a class="link" href="images/desktop/1920px/work_mockup4.webp" data-fancybox="gallery8" data-fancybox data-caption='WETA Full Capabilities Whole Foods'><img class="imgs" src="images/desktop/1280px/work_mockup4.webp" /></a>
+        <a class="link" href="images/desktop/1920px/work_mockup4.webp" data-fancybox="gallery8" data-fancybox data-caption='WETA Full Capabilities Whole Foods'><img class="imgs lazy" src="images/mobile/414px/work_mockup4.webp" sizes="(max-width:600px) 100vw, 60vw" srcset="images/mobile/414px/work_mockup4.webp 400w, images/tablet/600px/work_mockup4.webp 600w, images/tablet/800px/work_mockup4.webp 800w, images/desktop/1280px/work_mockup4.webp 1000w"></a>
      </div>
      <div>
-       <a class="link" href="images/desktop/1920px/work_mockup5.webp" data-fancybox="gallery8" data-fancybox data-caption='WETA Full Capabilities Whole Foods<br>Designed by <a href="http://uiconstock.com/" target="_blank">uiconstock.com</a>'><img class="imgs" src="images/desktop/1280px/work_mockup5.webp" /></a>
+       <a class="link" href="images/desktop/1920px/work_mockup5.webp" data-fancybox="gallery8" data-fancybox data-caption='WETA Full Capabilities Whole Foods<br>Designed by <a href="http://uiconstock.com/" target="_blank">uiconstock.com</a>'><img class="imgs lazy" src="images/mobile/414px/work_mockup5.webp" sizes="(max-width:600px) 100vw, 60vw" srcset="images/mobile/414px/work_mockup5.webp 400w, images/tablet/600px/work_mockup5.webp 600w, images/tablet/800px/work_mockup5.webp 800w, images/desktop/1280px/work_mockup5.webp 1000w"></a>
      </div>
 
     </div>
@@ -190,6 +190,48 @@
       });
     </script>
     <script src="js/script13.js"></script>
+    <script>
+      function logElementEvent(eventName, element) {
+        console.log(Date.now(), eventName, element.getAttribute("data-src"));
+      }
+
+      var callback_enter = function (element) {
+        logElementEvent("🔑 ENTERED", element);
+      };
+      var callback_exit = function (element) {
+        logElementEvent("🚪 EXITED", element);
+      };
+      var callback_loading = function (element) {
+        logElementEvent("⌚ LOADING", element);
+      };
+      var callback_loaded = function (element) {
+        logElementEvent("👍 LOADED", element);
+      };
+      var callback_error = function (element) {
+        logElementEvent("💀 ERROR", element);
+        element.src =
+          "https://via.placeholder.com/440x560/?text=Error+Placeholder";
+      };
+      var callback_finish = function () {
+        logElementEvent("✔️ FINISHED", document.documentElement);
+      };
+      var callback_cancel = function (element) {
+        logElementEvent("🔥 CANCEL", element);
+      };
+
+      require(["js/lazyload.amd.min.js"], function (LazyLoad) {
+        window.ll = new LazyLoad({
+          // Assign the callbacks defined above
+          callback_enter: callback_enter,
+          callback_exit: callback_exit,
+          callback_cancel: callback_cancel,
+          callback_loading: callback_loading,
+          callback_loaded: callback_loaded,
+          callback_error: callback_error,
+          callback_finish: callback_finish
+        });
+      });
+    </script>
 
 </body>
 

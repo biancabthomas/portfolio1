@@ -4,7 +4,6 @@ html {
 
 body {
     text-align: center;
-    overflow-x: hidden;
     color: #000000;
     margin: 0 auto;
     font-family: 'Rubik', sans-serif!important;
@@ -439,6 +438,7 @@ p {
 
     .wallpaper {
         width: 1120px;
+        margin: 0 auto;
     }
 
     .desktop {

@@ -286,7 +286,7 @@ Burger king
         right: 1.9rem !important;
         top: 2.5rem;
         z-index: 100;
-        width: 34px;
+        width: 100%;
         display: block;
         cursor: pointer;
         unicode-bidi:bidi-override;
@@ -349,7 +349,6 @@ Burger king
         position: absolute;
         top: 2.3rem;
         z-index: 100;
-        width: 34px;
         display: block;
         cursor: pointer;
     }
@@ -398,7 +397,6 @@ Burger king
         position: absolute;
         top: 2.5rem;
         z-index: 100;
-        width: 34px;
         display: block;
         cursor: pointer;
     }
@@ -447,7 +445,6 @@ Burger king
         position: absolute;
         top: 2.3rem;
         z-index: 100;
-        width: 34px;
         display: block;
         cursor: pointer;
     }
@@ -496,7 +493,6 @@ Burger king
         position: absolute;
         top: 2.3rem;
         z-index: 100;
-        width: 34px;
         display: block;
         cursor: pointer;
     }
@@ -546,7 +542,6 @@ Burger king
         right: 1rem;
         top: 2.2rem;
         z-index: 100;
-        width: 34px;
         display: block;
         cursor: pointer;
     }
@@ -595,7 +590,6 @@ Burger king
         position: absolute;
         top: 2rem;
         z-index: 100;
-        width: 34px;
         display: block;
         cursor: pointer;
     }
@@ -644,7 +638,6 @@ Burger king
         position: absolute;
         top: 1.7rem;
         z-index: 100;
-        width: 34px;
         display: block;
         cursor: pointer;
     }
@@ -693,7 +686,6 @@ Burger king
         position: absolute;
         top: 1.3rem;
         z-index: 100;
-        width: 34px;
         display: block;
         cursor: pointer;
     }
@@ -742,7 +734,6 @@ Burger king
         position: absolute;
         top: 1.2rem;
         z-index: 100;
-        width: 34px;
         display: block;
         cursor: pointer;
     }

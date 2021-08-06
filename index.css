@@ -4,7 +4,8 @@ html {
 
 body {
     text-align: center;
-    color: #000000;
+    background-color: #B18B6E;
+    color: #4D2405;
     margin: 0 auto;
     font-family: 'Rubik', sans-serif!important;
     font-weight: 100;
@@ -81,9 +82,9 @@ a {
 }
 
 .button {
-    background-color: #7b716d;
+    background-color: #D53000;
     border: none;
-    color: #ffffff;
+    color: #F7BA06;
     padding: 15px;
     text-align: center;
     text-decoration: none;
@@ -125,25 +126,25 @@ p {
 
     h1 {
         text-align: center;
-        color: white !important;
+        color: #31856C !important;
         font-size: 90px;
         margin: 0 auto;
         width: 100%!important;
         font-family: 'Ubuntu', sans-serif!important;
         font-style: normal;
         font-weight: 700;
-        margin-bottom: -35px;
     }
 
     h2 {
         text-align: center;
-        color: white !important;
-        font-size: 60px;
+        color: #31856C !important;
+        font-size: 50px;
         margin: 0 auto;
         width: 100%!important;
         font-family: 'Ubuntu', sans-serif!important;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 700;
+        margin-bottom: 60px;
     }
 
     .h1 {
@@ -183,7 +184,7 @@ p {
 
     ul.topnav li a {
         display: block;
-        color: #ffffff;
+        color: #31856C;
         text-align: center;
         z-index: 300;
         padding: 14px 10px;
@@ -193,7 +194,7 @@ p {
     }
 
     a:visited {
-        color: white;
+        color:  #31856C;
     }
 
     ul.topnav li a:hover {
@@ -207,7 +208,7 @@ p {
         margin-right: 10px !important;
         width: 2%;
         transition: all 0.3s ease;
-        color: #ffffff;
+        color: #31856C;
         border-radius: 50% 0 50% 0;
     }
 
@@ -218,7 +219,7 @@ p {
         margin-left: 10px;
         width: 2%;
         transition: all 0.3s ease;
-        color: #ffffff;
+        color: #31856C;
         border-radius: 50% 0 50% 0;
     }
 
@@ -229,7 +230,7 @@ p {
         margin-left: 5px;
         width: 2%;
         transition: all 0.3s ease;
-        color: #ffffff;
+        color: #31856C;
         border-radius: 50% 0 50% 0;
     }
 
@@ -386,9 +387,9 @@ p {
     }
 
     .button {
-        background-color: #7b716d;
+        background-color: #D53000;
         border: none;
-        color: white;
+        color: #F7BA06;
         padding: 15px;
         text-align: center;
         text-decoration: none;
@@ -400,42 +401,42 @@ p {
     }
 
     .button1 {
-        border-radius: 43px;
+        border-radius: 13px;
     }
 
     .button2 {
-        border-radius: 43px;
+        border-radius: 13px;
     }
 
     .button3 {
-        border-radius: 43px;
+        border-radius: 13px;
     }
 
     .button4 {
-        border-radius: 43px;
+        border-radius: 13px;
     }
 
     .button5 {
-        border-radius: 43px;
+        border-radius: 13px;
         display: none;
     }
 
     .button6 {
-        border-radius: 43px;
+        border-radius: 13px;
         margin-bottom: 53px !important;
     }
 
     .button7 {
-        border-radius: 43px;
+        border-radius: 13px;
         margin-bottom: 53px !important;
     }
 
     .button8 {
-        border-radius: 43px;
+        border-radius: 13px;
     }
 
     .button9 {
-        border-radius: 43px;
+        border-radius: 13px;
     }
 
     .yump {

@@ -149,11 +149,8 @@ p {
 
     .h1 {
         text-align: center;
-        color: white !important;
+        color: #31856C !important;
         font-size: 90px;
-        font-weight: 900px;
-        border: solid;
-        border-width: 11px;
         padding-bottom: 10px;
         width: 100% !important;
         margin: 0 auto;

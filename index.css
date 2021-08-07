@@ -126,7 +126,7 @@ p {
 
     h1 {
         text-align: center;
-        color: #31856C !important;
+        color: #009983 !important;
         font-size: 90px;
         margin: 0 auto;
         width: 100%!important;
@@ -135,21 +135,9 @@ p {
         font-weight: 700;
     }
 
-    h2 {
-        text-align: center;
-        color: #31856C !important;
-        font-size: 50px;
-        margin: 0 auto;
-        width: 100%!important;
-        font-family: 'Ubuntu', sans-serif!important;
-        font-style: normal;
-        font-weight: 700;
-        margin-bottom: 60px;
-    }
-
     .h1 {
         text-align: center;
-        color: #31856C !important;
+        color: #009983 !important;
         font-size: 90px;
         padding-bottom: 10px;
         width: 100% !important;
@@ -181,7 +169,7 @@ p {
 
     ul.topnav li a {
         display: block;
-        color: #31856C;
+        color: #009983;
         text-align: center;
         z-index: 300;
         padding: 14px 10px;
@@ -485,7 +473,7 @@ p {
     h2 {
         font-family: 'Ubuntu', sans-serif;
         font-weight: 700px;
-        color: #000000;
+        color: #4D2405;
         margin-top: 50px;
     }
 

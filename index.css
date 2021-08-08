@@ -103,7 +103,7 @@ a {
 }
 
 .button1 {
-    border-radius: 43px;
+    border-radius: 13px;
 }
 
 p {
@@ -126,7 +126,7 @@ p {
 
     h1 {
         text-align: center;
-        color: #009983 !important;
+        color: #FFD1EA !important;
         font-size: 90px;
         margin: 0 auto;
         width: 100%!important;
@@ -137,7 +137,7 @@ p {
 
     .h1 {
         text-align: center;
-        color: #009983 !important;
+        color: #FFD1EA !important;
         font-size: 90px;
         padding-bottom: 10px;
         width: 100% !important;
@@ -169,7 +169,7 @@ p {
 
     ul.topnav li a {
         display: block;
-        color: #009983;
+        color: #FFD1EA;
         text-align: center;
         z-index: 300;
         padding: 14px 10px;
@@ -179,7 +179,7 @@ p {
     }
 
     a:visited {
-        color:  #31856C;
+        color:  #FFD1EA;
     }
 
     ul.topnav li a:hover {
@@ -193,7 +193,7 @@ p {
         margin-right: 10px !important;
         width: 2%;
         transition: all 0.3s ease;
-        color: #31856C;
+        color: #FFD1EA;
         border-radius: 50% 0 50% 0;
     }
 
@@ -204,7 +204,7 @@ p {
         margin-left: 10px;
         width: 2%;
         transition: all 0.3s ease;
-        color: #31856C;
+        color: #FFD1EA;
         border-radius: 50% 0 50% 0;
     }
 
@@ -215,7 +215,7 @@ p {
         margin-left: 5px;
         width: 2%;
         transition: all 0.3s ease;
-        color: #31856C;
+        color: #FFD1EA;
         border-radius: 50% 0 50% 0;
     }
 
@@ -313,7 +313,7 @@ p {
     }
 
     .pic {
-        width: 100%;
+        width: 240px;
         height: auto;
     }
 

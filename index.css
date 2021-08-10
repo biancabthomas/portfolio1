@@ -4,7 +4,7 @@ html {
 
 body {
     text-align: center;
-    background-color: #D4972A;
+    background-color: #eacb95;
     color: #4D2405;
     margin: 0 auto;
     font-family: 'Rubik', sans-serif!important;
@@ -66,6 +66,7 @@ a {
     background-image: url(images/digital-design-background.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     padding-bottom: 20px;
 }
 

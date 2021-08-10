@@ -4,7 +4,7 @@ html {
 
 body {
     text-align: center;
-    background-color: #B18B6E;
+    background-color: #D4972A;
     color: #4D2405;
     margin: 0 auto;
     font-family: 'Rubik', sans-serif!important;
@@ -3743,8 +3743,8 @@ p {
     }
 
     .pic {
-        width: 70%;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
 
     .flex-container {

@@ -16,9 +16,9 @@ section {
   width: 1125px;
   margin: 0 auto;
 }
-
+/*Camera Slider Caption Text*/
 .hover {
-  color: #00656d;
+  color: #90c3e7;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -64,7 +64,7 @@ a {
     width: 100%;
     height: auto;
     background-image: url(images/digital-design-background.webp);
-    background-size: cover;
+    background-size: 1800px;
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 20px;
@@ -165,7 +165,7 @@ p {
     .nav {
         float: right;
         margin-top: 10px;
-        margin-left: 435px !important;
+        margin-left: 470px !important;
         margin-right: 0 !important;
     }
 
@@ -285,7 +285,7 @@ p {
 
     .logo {
         margin-left: 0 !important;
-        padding-top: 70px;
+        padding-top: 30px;
         padding-bottom: 1px;
         margin-right: 0;
         margin-bottom: -60px;
@@ -295,7 +295,7 @@ p {
     }
 
     .kids {
-        width: 100%;
+        width: 2px;
         height: auto;
     }
 
@@ -315,7 +315,7 @@ p {
     }
 
     .pic {
-        width: 240px;
+        width: 100%;
         height: auto;
     }
 

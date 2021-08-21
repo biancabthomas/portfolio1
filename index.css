@@ -4,7 +4,7 @@ html {
 
 body {
     text-align: center;
-    background-color: #eacb95;
+    background-color: #D4972A;
     color: #4D2405;
     margin: 0 auto;
     font-family: 'Rubik', sans-serif!important;
@@ -66,7 +66,7 @@ a {
     background-image: url(images/digital-design-background.webp);
     background-size: 1800px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom right;
     padding-bottom: 20px;
 }
 
@@ -83,7 +83,7 @@ a {
 }
 
 .button {
-    background-color: #D53000;
+    background-color: #0D293C;
     border: none;
     color: #F7BA06;
     padding: 15px;
@@ -374,7 +374,7 @@ p {
     }
 
     .button {
-        background-color: #D53000;
+        background-color: #0D293C;
         border: none;
         color: #F7BA06;
         padding: 15px;

@@ -82,7 +82,7 @@
 .grid-wrapper3 > div > .link, .pi {
 	width: 100%;
 	height: 100%;
-	object-fit: fill!important;
+	object-fit: cover!important;
 	object-position: left!important;
 	border-radius: 0;
 }
@@ -119,7 +119,7 @@
 .grid-wrapper4 > div > .link, .pi {
 	width: 100%;
 	height: 100%;
-	object-fit: fill!important;
+	object-fit: cover!important;
 	border-radius: 0;
 }
 .grid-wrapper4 > div > .link, .imgsj2 {

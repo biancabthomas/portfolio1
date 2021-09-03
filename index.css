@@ -213,6 +213,18 @@ p {
     #social3 {
         float: left;
         margin-top: 55px;
+        margin-right: 10px;
+        margin-left: 10px !important;
+        margin-left: 5px;
+        width: 2%;
+        transition: all 0.3s ease;
+        color: #FFD1EA;
+        border-radius: 50% 0 50% 0;
+    }
+
+    #social4 {
+        float: left;
+        margin-top: 55px;
         margin-right: 50px !important;
         margin-left: 5px;
         width: 2%;
@@ -236,6 +248,11 @@ p {
         background: #00656d;
     }
 
+    #social4:hover {
+        color: #512a44;
+        background: #00656d;
+    }
+
     #social1:visited {
         color: #ffffff;
     }
@@ -245,6 +262,10 @@ p {
     }
 
     #social3:visited {
+        color: #ffffff;
+    }
+
+    #social4:visited {
         color: #ffffff;
     }
 
@@ -2954,6 +2975,10 @@ p {
 }
 
 @media screen and (max-width: 1400px) {
+  .header {
+      background-position: 80% 80%;
+  }
+
     h1 {
         width: 81.5%;
     }

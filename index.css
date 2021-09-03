@@ -4,7 +4,7 @@ html {
 
 body {
     text-align: center;
-    background-color: #e8c88e;
+    background-color: #D9A443;
     color: #4D2405;
     margin: 0 auto;
     font-family: 'Rubik', sans-serif!important;
@@ -63,10 +63,10 @@ a {
 .header {
     width: 100%;
     height: auto;
-    background-image: url(images/digital-design-background.webp);
-    background-size: 1800px;
+    background-image: url(images/2500px/digital-design-background.webp);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom right -5%;
+    background-position: 10% 80%;
     padding-bottom: 20px;
 }
 

@@ -79,24 +79,31 @@
 	object-position: left!important;
 	border-radius: 0;
 }
-.grid-wrapper3 > div > .link, .pi {
+.grid-wrapper3 > div > .link, .pi1 {
 	width: 100%;
 	height: 100%;
 	object-fit: cover!important;
-	object-position: left!important;
+	object-position: top left!important;
+	border-radius: 0;
+}
+.grid-wrapper3 > div > .link, .pi2 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover!important;
+	object-position: top!important;
 	border-radius: 0;
 }
 .grid-wrapper3 > div > .link, .imgj3 {
 	width: 100%;
 	height: 100%;
 	object-fit: cover!important;
-	object-position:  50% 50%!important;
+	object-position: bottom!important;
 	border-radius: 0;
 }
 .grid-wrapper3 {
 	display: grid;
 	grid-gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(273.3px, 1fr));
 	grid-auto-rows: 200px;
 	grid-auto-flow: dense;
 }

@@ -64,9 +64,9 @@ a {
     width: 100%;
     height: auto;
     background-image: url(images/2500px/digital-design-background.webp);
-    background-size: cover;
+    background-size: 1680px;
     background-repeat: no-repeat;
-    background-position: 10% 80%;
+    background-position: 30% 80%;
     padding-bottom: 20px;
 }
 
@@ -129,7 +129,7 @@ p {
     h1 {
         text-align: center;
         color: #FFD1EA !important;
-        font-size: 130px;
+        font-size: 100px;
         margin: 0 auto;
         width: 100%!important;
         font-family: 'Ubuntu', sans-serif!important;
@@ -2975,10 +2975,6 @@ p {
 }
 
 @media screen and (max-width: 1400px) {
-  .header {
-      background-position: 80% 80%;
-  }
-
     h1 {
         width: 81.5%;
     }
